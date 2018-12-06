@@ -1,0 +1,13 @@
+section {
+  background: white;
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.ctrl {
+  border-bottom: 1px solid #888;
+}

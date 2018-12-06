@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div id="autolt"></div>
+  <script>
+    window.addEventListener('load', function() {
+      Autolt([
+        {
+          html: "<h1>title</h1>",
+          talk: 'こんにちは'
+        },
+        {
+          html: "<h1>head</h1><p>body</p>",
+          talk: 'わーるど'
+        },
+        {
+          html: "<pre>text</pre>",
+          talk: 'せかい'
+        },
+      ], "#autolt");
+    });
+  </script>
+</body>
+
+</html>
